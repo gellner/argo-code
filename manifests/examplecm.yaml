@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: texttestcm
+  namespace: default
+data:
+  message: |
+    This is an example message
+
+    Version 1
